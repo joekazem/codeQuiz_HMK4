@@ -1,0 +1,29 @@
+.header {
+    background-color: rgb(233, 233, 233);
+    width: 100%;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#scores {
+    float: left;
+    position: relative;
+    bottom: 120px;
+}
+#timer {
+    float: right;
+    position: relative;
+    bottom: 120px;
+    
+    
+}
+#startBtn {
+    margin-left: 640px;
+}
+footer {
+    text-align: center;
+    background-color: rgb(236, 247, 247);
+    width: 100%;
+    margin-top: 380px;
+    position: fixed;
+}
