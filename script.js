@@ -1,85 +1,85 @@
 // Boeing 737 NG systems quiz
 // array inside of an object that holds oll of the questions and answers for the quiz. object inside of an array for the questions
 const questions = [{
-        question: "Illumination of the blue APU GEN BUS OFF light means?",
+        question: "Which of the following are NOT considered data types?",
         answers: {
-            a: "APU is running",
-            b: "APU is not running",
-            c: "APU is running and powering transfer busses",
-            d: "APU is running but not powering transfer busses",
+            a: "alerts",
+            b: "strings",
+            c: "numbers",
+            d: "booleans",
         },
-        correctAnswer: "(d) APU is running but not powering transfer busses"
+        correctAnswer: "(a)"
     },
     {
-        question: "For landing, what is maximum fuel imbalance between No 1 and No 2 main tanks",
+        question: "Arrays in Javascript can be used to store?",
         answers: {
-            a: "726 kgs",
-            b: "453 kgs",
-            c: "553 kgs",
-            d: "653 kgs",
+            a: "numbers and strings",
+            b: "other arrays",
+            c: "booleans",
+            d: "all of the above",
         },
-        correctAnswer: "(b) 453 kgs"
+        correctAnswer: "(d)"
     },
     {
-        question: "What is the condition of the fuel X-feed VALVE OPEN Light when the crossfeed selector is positioned OPEN and the crossfeed valve is closed?",
+        question: "What is the purpose of a function?",
         answers: {
-            a: "Illuminated amber",
-            b: "Illuminated bright blue",
-            c: "Extinguished",
-            d: "Illuminated dim blue",
+            a: "a set of statements that performs a task or calculates a value",
+            b: "runs code in a loop",
+            c: "it creates comments in code",
+            d: "a type of taco",
         },
-        correctAnswer: "(b) Illuminated bright blue"
+        correctAnswer: "(a)"
     },
     {
-        question: "The APU may be used as a pneumatic source up to?",
+        question: "Inside which HTML element do we put the JavaScript?",
         answers: {
-            a: "25,000 feet",
-            b: "17,000 feet",
-            c: "41,000 feet",
-            d: "10,000 feet ",
+            a: "<js>",
+            b: "<javascript>",
+            c: "<script>",
+            d: "<scripting ",
         },
-        correctAnswer: "(b) 17,000 feet"
+        correctAnswer: "(c) <script>"
     },
     {
-        question: "What pitch mode is annunciated in the FMA after takeoff when the autopilot is first engaged in CMD",
+        question: "How do you write Hello World in an alert box?",
         answers: {
-            a: "CWS P",
-            b: "V NAV",
-            c: "MCP SPD",
-            d: "V/S",
+            a: "alertBox(Hello World);",
+            b: "alert(hello world)",
+            c: "Alert[hello world",
+            d: "alert{hello world}",
         },
-        correctAnswer: "(c) MCP SPD"
+        correctAnswer: "(b) "
     },
     {
-        question: "What is the primary source of conditioned air from the cockpit",
+        question: "How to write an IF statement in JavaScript?",
 
         answers: {
-            a: "Both packs",
-            b: "Left pack",
-            c: "Ground air",
-            d: "Right pack",
+            a: "if(i===5)",
+            b: "ifi==5",
+            c: "ifi==5 then",
+            d: "ifi=5then",
         },
-        correctAnswer: "(b) Left pack"
+        correctAnswer: "(a)"
     },
     {
-        question: "Which A/T modes permit manual thrust changes without A/T interference",
+        question: "How can you add a comment in a JavaScript?",
         answers: {
-            a: "N1 and ARM",
-            b: "THR HLD only",
-            c: "THR HLD and ARM",
-            d: "GA and ARM",
+            a: "<!--this is a comment-->",
+            b: "//this is a comment",
+            c: "**this is a comment",
+            d: "(this is a comment)",
         },
-        correctAnswer: "(c) THR HLD and ARM"
+        correctAnswer: "(b)"
     },
     {
-        question: "During an ILS approach, the cross bus tie relay automatically opens at glide slope capture to",
+        question: "Which event occurs when the user clicks on an HTML element?",
         answers: {
-            a: "Provide more power to the AC standby bus",
-            b: "Ensure that the standby DC bus is powered",
-            c: "Provide more power to DC bus 1",
-            d: "Prevent a single bus failure from affecting both navigation receivers and flight control computers"
+            a: "onMouseClick",
+            b: "onclick",
+            c: "onmouseover",
+            d: "onChange"
         },
-        correctAnswer: "(d) Prevent a single bus failure from affecting both navigation receivers and flight control computers during critical phase of flight"
+        correctAnswer: "(b)"
     }
 ]
 //variable assignments
